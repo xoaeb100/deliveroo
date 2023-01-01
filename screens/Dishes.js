@@ -18,7 +18,7 @@ const Dishes = () => {
   const dispatch = useDispatch();
 
   const addItemstoBasket = () => {
-    dispatch(addToBasket(title, id));
+    dispatch(addToBasket(title));
   };
   const removeItemsFromBasket = () => {
     if (!items.length > 0) return;
