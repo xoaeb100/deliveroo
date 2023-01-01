@@ -11,6 +11,7 @@ import {
   ArrowLeftIcon,
   MinusCircleIcon,
   PlusCircleIcon,
+  ShoppingCartIcon,
 } from "react-native-heroicons/solid";
 const Dishes = () => {
   const [isPressed, setIsPressed] = useState(false);
@@ -80,6 +81,17 @@ const Dishes = () => {
               <PlusCircleIcon size={40} color="#00ccbb" />
             </TouchableOpacity>
           </View>
+        </View>
+      )}
+      {items.length > 0 && (
+        <View>
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate("Delivery");
+            }}
+          >
+            <ShoppingCartIcon size={40} color="#00ccbb" />
+          </TouchableOpacity>
         </View>
       )}
     </ScrollView>

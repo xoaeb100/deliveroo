@@ -7,6 +7,7 @@ import Home from "./screens/Home";
 import Dishes from "./screens/Dishes";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import Delivery from "./screens/Delivery";
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Dishes" component={Dishes} />
+          <Stack.Screen name="Delivery" component={Delivery} />
         </Stack.Navigator>
         <StatusBar style="auto" />
       </Provider>
