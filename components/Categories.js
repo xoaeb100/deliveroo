@@ -12,40 +12,29 @@ const Categories = () => {
       showsHorizontalScrollIndicator={false}
     >
       <CategoryCard
+        idx="01"
         imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 1"
+        title="Pizza"
       />
       <CategoryCard
+        idx="02"
         imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 2 "
+        title="Cake"
       />
       <CategoryCard
+        idx="03"
         imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 3"
+        title="Biryani!"
       />
       <CategoryCard
+        idx="04"
         imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 4"
+        title="Desserts"
       />
       <CategoryCard
+        idx="05"
         imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
         title="Testing 5"
-      />
-      <CategoryCard
-        imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 6"
-      />
-      <CategoryCard
-        imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 7"
-      />
-      <CategoryCard
-        imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 8"
-      />
-      <CategoryCard
-        imgUrl="https://www.thesquareclub.com/wp-content/uploads/bfi_thumb/Evoke-Pictures__Square-Club__156-pjhn8bbhgecghiz5rqgm3wdoie2isqo9polyoo8xqk-pjhnkl3moj58295g41f9pvpfb4s429raxsbp17no3w.jpg"
-        title="Testing 9"
       />
     </ScrollView>
   );
